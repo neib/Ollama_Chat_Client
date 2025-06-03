@@ -7,6 +7,8 @@ Installation of nvidia-cuda is optional, and the tool should work in any Linux c
 - netcat-openbsd
 - jq
 
+The Dockerfile is prepared for NVIDIA-CUDA installation
+
 # Running
 First run the install.sh script to get the NVIDIA Container Toolkit
 Then build the Docker image with Dockerfile (startup with "bash" or "ollama_client.sh.fake to last config)
