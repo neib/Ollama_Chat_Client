@@ -11,5 +11,7 @@ The Dockerfile is prepared for NVIDIA-CUDA installation
 
 # Running
 First run the install.sh script to get the NVIDIA Container Toolkit
-Then build the Docker image with Dockerfile (startup with "bash" or "ollama_client.sh.fake to last config)
-Enjoy!
+Then build the Docker image with Dockerfile 
+  - startup with "bash" or "ollama_client.sh.fake to last config:
+    ex: ollamma pull <model>
+    etc.
