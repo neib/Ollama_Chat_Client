@@ -8,3 +8,5 @@ fi
 
 # Mount local:~/Ollama/workspace to docker:/workspace
 sudo docker run --gpus all -it --rm -v ~/Ollama/workspace:/workspace nvidia-cuda
+# Without GPU
+#sudo docker run -it --rm -v ~/Ollama/workspace:/workspace nvidia-cuda
